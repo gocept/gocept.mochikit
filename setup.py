@@ -5,11 +5,11 @@
 from setuptools import setup, find_packages
 
 setup(
-    name = 'gocept.fckeditor',
-    version = "2.4",
+    name = 'gocept.mochikit',
+    version = "1.0",
     author = "Christian Zagrodnick",
     author_email = "cz@gocept.com",
-    description = "FCKEditor integration into Zope 3",
+    description = "MochiKit integration into Zope 3",
     long_description = "XXX",
     license = "ZPL 2.1",
     url='https://svn.gocept.com/repos/gocept/gocept.mochikit',
