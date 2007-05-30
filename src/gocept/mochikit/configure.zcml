@@ -6,6 +6,7 @@
     <directory source="resources/packed/MochiKit" include="MochiKit.js" />
   </resourceLibrary>
 
+  <include file="libraries.zcml" />
 
 </configure>
 
