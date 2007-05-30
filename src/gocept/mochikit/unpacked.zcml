@@ -1,0 +1,18 @@
+<configure
+  xmlns="http://namespaces.zope.org/zope"
+  xmlns:browser="http://namespaces.zope.org/browser">
+  
+  <!-- unpacked variant of mochikit. To use include this instead of
+  configure.zcml -->
+
+  <resourceLibrary name="mochikit">
+    <directory source="resources/MochiKit"
+      include="Base.js Iter.js Logging.js DateTime.js Format.js Async.js
+      DOM.js Selector.js Style.js LoggingPane.js Color.js Signal.js
+      Position.js Visual.js"
+      />
+  </resourceLibrary>
+
+
+</configure>
+

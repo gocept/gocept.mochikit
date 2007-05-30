@@ -1,0 +1,31 @@
+<configure
+  xmlns="http://namespaces.zope.org/zope"
+  xmlns:browser="http://namespaces.zope.org/browser">
+
+  <resourceLibrary name="mochikit.DragAndDrop" require="mochikit">
+    <directory source="resources/MochiKit" include="DragAndDrop.js" />
+  </resourceLibrary>
+
+  <resourceLibrary name="mochikit.Controls" require="mochikit">
+    <directory source="resources/MochiKit" include="Controls.js" />
+  </resourceLibrary>
+
+  <resourceLibrary name="mochikit.MockDOM" require="mochikit">
+    <directory source="resources/MochiKit" include="MockDOM.js" />
+  </resourceLibrary>
+
+  <resourceLibrary name="mochikit.Selector" require="mochikit">
+    <directory source="resources/MochiKit" include="Selector.js" />
+  </resourceLibrary>
+
+  <resourceLibrary name="mochikit.Sortable" require="mochikit">
+    <directory source="resources/MochiKit" include="Sortable.js" />
+  </resourceLibrary>
+
+  <resourceLibrary name="mochikit.Test" require="mochikit">
+    <directory source="resources/MochiKit" include="Test.js" />
+  </resourceLibrary>
+
+
+</configure>
+

@@ -1,0 +1,11 @@
+<configure
+  xmlns="http://namespaces.zope.org/zope"
+  xmlns:browser="http://namespaces.zope.org/browser">
+
+  <resourceLibrary name="mochikit">
+    <directory source="resources/packed/MochiKit" include="MochiKit.js" />
+  </resourceLibrary>
+
+
+</configure>
+
