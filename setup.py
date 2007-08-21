@@ -2,7 +2,10 @@
 # See also LICENSE.txt
 # $Id$
 
+import os.path
+
 from setuptools import setup, find_packages
+
 
 setup(
     name = 'gocept.mochikit',
@@ -10,7 +13,8 @@ setup(
     author = "Christian Zagrodnick",
     author_email = "cz@gocept.com",
     description = "MochiKit integration into Zope 3",
-    long_description = "XXX",
+    long_description = file(os.path.join(os.path.dirname(__file__),
+                                         'README.txt')).read(),
     license = "ZPL 2.1",
     url='https://svn.gocept.com/repos/gocept/gocept.mochikit',
 
