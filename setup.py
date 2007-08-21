@@ -9,14 +9,14 @@ from setuptools import setup, find_packages
 
 setup(
     name = 'gocept.mochikit',
-    version = "1.1",
+    version = "1.2",
     author = "Christian Zagrodnick",
     author_email = "cz@gocept.com",
     description = "MochiKit integration into Zope 3",
     long_description = file(os.path.join(os.path.dirname(__file__),
                                          'README.txt')).read(),
     license = "ZPL 2.1",
-    url='https://svn.gocept.com/repos/gocept/gocept.mochikit',
+    url='http://pypi.python.org/pypi/gocept.mochikit',
 
     packages = find_packages('src'),
     package_dir = {'': 'src'},
