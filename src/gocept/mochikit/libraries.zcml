@@ -26,6 +26,10 @@
     <directory source="resources/MochiKit" include="Test.js" />
   </resourceLibrary>
 
+  <!-- non mochikit -->
+  <resourceLibrary name="gocept.mochikit.jsclass">
+    <directory source="resources" include="jsclass.js" />
+  </resourceLibrary>
 
 </configure>
 

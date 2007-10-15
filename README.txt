@@ -33,9 +33,23 @@ You use those like this::
     <tal:replace replace="resource_library:mochikit.DragAndDrop" />
 
 Unpacked Variant
-===============
+================
 
 If you need to debug it's often easier to use the plain and unpacked MochiKit
 variant. To use you load the package like this::
 
     <include package="gocept.mochikit" file="unpacked" />
+
+
+Changes
+=======
+
+1.2
++++
+
+* Added an approach for easier inheritance from
+  http://www.ajaxpath.com/javascript-inheritance/
+
+* Update to Mochikit r1315
+
+
