@@ -1,3 +1,4 @@
+// $Id$
 //Defines the top level Class
 function Class() { }
 Class.prototype.construct = function() {};
@@ -21,3 +22,5 @@ Class.extend = function(def) {
   classDef.extend = this.extend;      
   return classDef;
 };
+
+gocept.Class = Class;

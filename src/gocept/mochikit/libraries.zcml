@@ -27,8 +27,19 @@
   </resourceLibrary>
 
   <!-- non mochikit -->
-  <resourceLibrary name="gocept.mochikit.jsclass">
+
+  <resourceLibrary name="gocept.mochikit.base">
+    <directory source="resources" include="base.js" />
+  </resourceLibrary>
+
+  <resourceLibrary name="gocept.mochikit.jsclass"
+    require="gocept.mochikit.base">
     <directory source="resources" include="jsclass.js" />
+  </resourceLibrary>
+  
+  <resourceLibrary name="gocept.mochikit.lightbox"
+    require="gocept.mochikit.base gocept.mochikit.jsclass">
+    <directory source="resources" include="lightbox.js" />
   </resourceLibrary>
 
 </configure>
