@@ -44,6 +44,14 @@ variant. To use you load the package like this::
 Changes
 =======
 
+1.3 (unreleased)
+++++++++++++++++
+
+
+* Updated to Mochikit r1320
+
+* Added a lightbox (probably doesn't work in IE)
+
 1.2
 +++
 
