@@ -7,12 +7,12 @@ gocept.Lightbox = gocept.Class.extend({
         this.shade = DIV({'id': 'lightbox-shade'})
         this.content_box = DIV({'id': 'lightbox'});
         appendChildNodes(this.parent_element, this.shade, this.content_box);
-        connect(this.shade, 'onclick', this, 'hide_lightbox');
+        connect(this.shade, 'onclick', this, 'close');
 
        
     },
 
-    hide_lightbox: function() {
+    close: function() {
         disconnectAll('lightbox-shade');
         disconnectAll('lightbox');
         removeElement('lightbox-shade');
