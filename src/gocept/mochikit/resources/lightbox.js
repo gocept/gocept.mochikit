@@ -19,10 +19,14 @@ gocept.Lightbox = gocept.Class.extend({
         removeElement('lightbox');
     },
     
-    load_url: function(url) {
+    load_url: function(url, query) {
+        if (query == undefined) {
+            query = {}
+        }
+
         var othis = this;
         this.replace_content("Loading ...");
-        var d = doSimpleXMLHttpRequest(url);
+        var d = doSimpleXMLHttpRequest(url, query);
         d.addCallbacks(
             function(result) {
                 return result.responseText;
