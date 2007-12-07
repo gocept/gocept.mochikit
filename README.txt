@@ -44,8 +44,10 @@ variant. To use you load the package like this::
 Changes
 =======
 
-1.4 (unreleased)
+1.3.1 (2007-12-07)
 ++++++++++++++++
+
+* Created a viewlet manager to allow easy dynamic javascript injection
 
 
 1.3 (2007-11-26)

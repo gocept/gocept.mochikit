@@ -7,6 +7,12 @@
   </resourceLibrary>
 
   <include file="libraries.zcml" />
+  
+  <browser:viewletManager
+    name="gocept.mochikit.javascript"
+    provides=".interfaces.IJavascriptViewletManager"
+    permission="zope.View"
+    />
 
 </configure>
 
