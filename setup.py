@@ -27,6 +27,7 @@ setup(
     namespace_packages = ['gocept'],
     install_requires = [
         'setuptools',
+        'zope.viewlet',
         'zc.resourcelibrary',
     ],
     extras_require = {

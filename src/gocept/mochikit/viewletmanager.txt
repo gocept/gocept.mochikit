@@ -1,0 +1,33 @@
+===============
+Viewlet manager
+===============
+
+gocept.mochikit defines a viewlet manager where javascripts can be injected.
+
+
+Use a silly object as content:
+
+>>> content = object()
+
+Create a test request:
+>>> import zope.publisher.browser
+>>> request = zope.publisher.browser.TestRequest()
+
+
+Create a view class and instanciate:
+
+>>> import zope.publisher.browser
+>>> class View(zope.publisher.browser.BrowserView):
+...     pass
+>>> view = View(content, request)
+
+
+Get the provider:
+
+>>> provider = zope.component.getMultiAdapter(
+...     (content, request, view),
+...     zope.contentprovider.interfaces.IContentProvider,
+...     name='gocept.mochikit.javascript')
+>>> provider
+<zope.viewlet.manager.<ViewletManager providing IJavascriptViewletManager>
+ object at 0x...>
