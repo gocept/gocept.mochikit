@@ -1,0 +1,45 @@
+/* Lightbox */
+#lightbox-shade {
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+    opacity: 0.7;
+}
+
+#lightbox-header {
+    z-index: 4;
+    background-color: white;
+    border: 1px solid black;
+    border-bottom: 0;
+    position: fixed;
+    top: 7.5em;
+    left: 10%;
+    right: 10%;
+    text-align:right;
+    padding: 0.5em;
+}
+
+#lightbox-header .CloseButton {
+    background: url("/@@/gocept.mochikit.lightbox/close.png");
+    width: 17px;
+    height: 17px;
+    display: block;
+    float: right;
+}
+
+#lightbox {
+    z-index: 3;
+    background-color: white;
+    border: 1px solid black;
+    border-top: 0;
+    position: fixed;
+    top: 10em;
+    left: 10%;
+    right: 10%;
+    bottom: 10%;
+}
+

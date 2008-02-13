@@ -39,7 +39,8 @@
   
   <resourceLibrary name="gocept.mochikit.lightbox"
     require="gocept.mochikit.base gocept.mochikit.jsclass">
-    <directory source="resources" include="lightbox.js" />
+    <directory source="resources" include="lightbox.js
+                                           lightbox.css" />
   </resourceLibrary>
 
 </configure>
