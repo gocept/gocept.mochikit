@@ -47,6 +47,10 @@ Changes
 1.4 (unreleased)
 ++++++++++++++++
 
+* Added styles (CSS) for lightbox 
+
+* Updated to Mochikit r1323
+  
 1.3.1 (2007-12-07)
 ++++++++++++++++++
 
