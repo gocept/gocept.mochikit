@@ -12,19 +12,17 @@
 
 #lightbox-header {
     z-index: 4;
-    background-color: white;
-    border: 1px solid black;
-    border-bottom: 0;
+    background-color: #ddd;
     position: fixed;
     top: 7.5em;
-    left: 10%;
-    right: 10%;
+    left: 10em;
+    right: 10em;
     text-align:right;
     padding: 0.5em;
 }
 
 #lightbox-header .CloseButton {
-    background: url("/@@/gocept.mochikit.lightbox/close.png");
+    background: url("close.png");
     width: 17px;
     height: 17px;
     display: block;
@@ -34,12 +32,9 @@
 #lightbox {
     z-index: 3;
     background-color: white;
-    border: 1px solid black;
-    border-top: 0;
     position: fixed;
     top: 10em;
-    left: 10%;
-    right: 10%;
-    bottom: 10%;
+    left: 10em;
+    right: 10em;
+    bottom: 7.5em;
 }
-
