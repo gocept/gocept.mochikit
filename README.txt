@@ -44,8 +44,8 @@ variant. To use you load the package like this::
 Changes
 =======
 
-1.4 (unreleased)
-++++++++++++++++
+1.3.2 (2008-02-13)
+++++++++++++++++++
 
 * Added styles (CSS) for lightbox 
 

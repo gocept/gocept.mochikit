@@ -9,7 +9,7 @@ from setuptools import setup, find_packages
 
 setup(
     name = 'gocept.mochikit',
-    version = "1.4dev",
+    version = "1.3.2dev",
     author = "Christian Zagrodnick",
     author_email = "cz@gocept.com",
     description = "MochiKit integration into Zope 3",
