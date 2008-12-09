@@ -44,7 +44,7 @@ variant. To use you load the package like this::
 Changes
 =======
 
-1.3.3 (unreleased)
+1.3.3 (2008-12-09)
 ++++++++++++++++++
 
 * Updated to MochiKit r1490 (MochiKit 1.4+)
