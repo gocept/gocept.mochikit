@@ -47,6 +47,8 @@ Changes
 1.3.3 (unreleased)
 ++++++++++++++++++
 
+* Updated to MochiKit r1490 (MochiKit 1.4+)
+
 1.3.2 (2008-02-13)
 ++++++++++++++++++
 
