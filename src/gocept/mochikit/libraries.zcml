@@ -3,27 +3,27 @@
   xmlns:browser="http://namespaces.zope.org/browser">
 
   <resourceLibrary name="mochikit.DragAndDrop" require="mochikit">
-    <directory source="resources/MochiKit" include="DragAndDrop.js" />
+    <directory source="resources/MochiKit-1.4.2/lib/MochiKit" include="DragAndDrop.js" />
   </resourceLibrary>
 
   <resourceLibrary name="mochikit.Controls" require="mochikit">
-    <directory source="resources/MochiKit" include="Controls.js" />
+    <directory source="resources/MochiKit-1.4.2/lib/MochiKit" include="Controls.js" />
   </resourceLibrary>
 
   <resourceLibrary name="mochikit.MockDOM" require="mochikit">
-    <directory source="resources/MochiKit" include="MockDOM.js" />
+    <directory source="resources/MochiKit-1.4.2/lib/MochiKit" include="MockDOM.js" />
   </resourceLibrary>
 
   <resourceLibrary name="mochikit.Selector" require="mochikit">
-    <directory source="resources/MochiKit" include="Selector.js" />
+    <directory source="resources/MochiKit-1.4.2/lib/MochiKit" include="Selector.js" />
   </resourceLibrary>
 
   <resourceLibrary name="mochikit.Sortable" require="mochikit">
-    <directory source="resources/MochiKit" include="Sortable.js" />
+    <directory source="resources/MochiKit-1.4.2/lib/MochiKit" include="Sortable.js" />
   </resourceLibrary>
 
   <resourceLibrary name="mochikit.Test" require="mochikit">
-    <directory source="resources/MochiKit" include="Test.js" />
+    <directory source="resources/MochiKit-1.4.2/lib/MochiKit" include="Test.js" />
   </resourceLibrary>
 
   <!-- non mochikit -->
