@@ -3,7 +3,7 @@
   xmlns:browser="http://namespaces.zope.org/browser">
 
   <resourceLibrary name="mochikit">
-    <directory source="resources/packed/MochiKit" include="MochiKit.js" />
+    <directory source="resources/MochiKit-1.4.2/packed/MochiKit" include="MochiKit.js" />
   </resourceLibrary>
 
   <include file="libraries.zcml" />

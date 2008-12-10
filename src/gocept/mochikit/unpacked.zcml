@@ -6,7 +6,7 @@
   configure.zcml -->
 
   <resourceLibrary name="mochikit">
-    <directory source="resources/MochiKit"
+    <directory source="resources/MochiKit-1.4.2/lib/MochiKit"
       include="Base.js Iter.js Logging.js DateTime.js Format.js Async.js
       DOM.js Selector.js Style.js LoggingPane.js Color.js Signal.js
       Position.js Visual.js"
