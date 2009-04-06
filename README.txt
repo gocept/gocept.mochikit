@@ -44,6 +44,11 @@ variant. To use you load the package like this::
 Changes
 =======
 
+1.4.2.1 (2009-04-06)
+++++++++++++++++++++
+
+* Sending a signal before the lightbox closes (before-close).
+
 1.4.2 (2008-12-10)
 ++++++++++++++++++
 

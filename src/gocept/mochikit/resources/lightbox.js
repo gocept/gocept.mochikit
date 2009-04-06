@@ -18,6 +18,7 @@ gocept.Lightbox = gocept.Class.extend({
     },
 
     close: function() {
+        MochiKit.Signal.signal(this, 'before-close');
         disconnectAll('lightbox-shade');
         disconnectAll('lightbox');
         removeElement('lightbox-shade');
