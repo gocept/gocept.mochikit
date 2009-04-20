@@ -44,7 +44,7 @@ variant. To use you load the package like this::
 Changes
 =======
 
-1.4.2.2 (unreleased)
+1.4.2.2 (2009-04-20)
 ++++++++++++++++++++
 
 * Lightbox: only set "Loading..." message when the lightbox is empty.
