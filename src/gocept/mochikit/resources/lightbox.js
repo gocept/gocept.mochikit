@@ -60,7 +60,9 @@ gocept.Lightbox = gocept.Class.extend({
         }
 
         var othis = this;
-        this.replace_content("Loading ...");
+        if (this.innerHTML == "") {
+            this.replace_content("Loading ...");
+        }
         var d = doSimpleXMLHttpRequest(url, query);
         d.addCallbacks(
             function(result) {

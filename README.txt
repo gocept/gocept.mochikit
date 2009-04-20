@@ -47,6 +47,8 @@ Changes
 1.4.2.2 (unreleased)
 ++++++++++++++++++++
 
+* Lightbox: only set "Loading..." message when the lightbox is empty.
+
 * Made unregistering of event handlers more reliable in lightbox.
 
 * Allow to not use ids for the lightbox.
