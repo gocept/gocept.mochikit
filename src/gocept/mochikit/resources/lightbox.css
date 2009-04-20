@@ -1,5 +1,5 @@
 /* Lightbox */
-#lightbox-shade {
+.lightbox-shade {
     z-index: 2;
     position: fixed;
     top: 0;
@@ -10,7 +10,7 @@
     opacity: 0.7;
 }
 
-#lightbox-header {
+.lightbox-header {
     z-index: 4;
     background-color: #ddd;
     position: fixed;
@@ -21,7 +21,7 @@
     padding: 0.5em;
 }
 
-#lightbox-header .CloseButton {
+.lightbox-header .CloseButton {
     background: url("close.png");
     width: 17px;
     height: 17px;
@@ -29,7 +29,7 @@
     float: right;
 }
 
-#lightbox {
+.lightbox {
     z-index: 3;
     background-color: white;
     position: fixed;
