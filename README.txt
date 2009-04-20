@@ -44,6 +44,13 @@ variant. To use you load the package like this::
 Changes
 =======
 
+1.4.2.2 (unreleased)
+++++++++++++++++++++
+
+* Made unregistering of event handlers more reliable in lightbox.
+
+* Allow to not use ids for the lightbox.
+
 1.4.2.1 (2009-04-06)
 ++++++++++++++++++++
 
