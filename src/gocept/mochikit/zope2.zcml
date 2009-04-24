@@ -1,0 +1,16 @@
+<configure
+  xmlns="http://namespaces.zope.org/zope"
+  xmlns:browser="http://namespaces.zope.org/browser">
+
+  <browser:resourceDirectory
+    directory="resources/MochiKit-1.4.2/packed/MochiKit"
+    name="gocept.mochikit"
+    />
+
+  <browser:resourceDirectory
+    directory="resources"
+    name="gocept.javascript"
+    />
+
+</configure>
+

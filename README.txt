@@ -2,11 +2,12 @@
 gocept.mochikit
 ===============
 
-gocept.mochikit integrates MochiKit (http://mochikit.com) into Zope 3. Send
-questions to Christian Zagrodnick <cz@gocept.com>.
+gocept.mochikit integrates MochiKit (http://mochikit.com) into Zope 2 and
+Zope 3. Send questions to Christian Zagrodnick <cz@gocept.com>.
 
-Usage
-=====
+
+Usage (Zope 3)
+==============
 
 To use gocept.mochikit you need to add the following to your package
 configuration (ZCML):: 
@@ -33,7 +34,7 @@ You use those like this::
     <tal:replace replace="resource_library:mochikit.DragAndDrop" />
 
 Unpacked Variant
-================
+----------------
 
 If you need to debug it's often easier to use the plain and unpacked MochiKit
 variant. To use you load the package like this::
@@ -41,8 +42,29 @@ variant. To use you load the package like this::
     <include package="gocept.mochikit" file="unpacked" />
 
 
+Usage (Zope 2)
+==============
+
+To use gocept.mochikit in Zope 2 you need to add the following to your package
+configuration (ZCML)::
+
+    <include package="gocept.mochikit" file="zope2.zcml" />
+
+This provides the packed version of MochiKit, so in your HTML template you
+need to include the following::
+
+    <script
+      type="text/javascript"
+      src="++resource++gocept.mochikit/MochiKit.js">
+    </script>
+
 Changes
 =======
+
+1.4.2.3 (2009-04-24)
+++++++++++++++++++++
+
+* Added configuration (zope2.zcml) for Zope 2 compatibility.
 
 1.4.2.2 (2009-04-20)
 ++++++++++++++++++++
