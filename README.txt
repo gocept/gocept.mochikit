@@ -61,6 +61,14 @@ need to include the following::
 Changes
 =======
 
+1.4.2.4 (2009-05-22)
+++++++++++++++++++++
+
+* Changed MochiKit.Signal.signal() so it is reentrant (see
+  https://trac.mochikit.com/ticket/346)
+
+* Made unpacked.zcml usable again.
+
 1.4.2.3 (2009-04-24)
 ++++++++++++++++++++
 

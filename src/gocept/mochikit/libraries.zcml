@@ -42,6 +42,12 @@
     <directory source="resources" include="lightbox.js
                                            lightbox.css" />
   </resourceLibrary>
+  
+  <browser:viewletManager
+    name="gocept.mochikit.javascript"
+    provides=".interfaces.IJavascriptViewletManager"
+    permission="zope.View"
+    />
 
 </configure>
 
