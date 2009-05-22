@@ -819,7 +819,7 @@ MochiKit.Base.update(MochiKit.Signal, {
         src = MochiKit.DOM.getElement(src);
         var args = MochiKit.Base.extend(null, arguments, 2);
         var errors = [];
-        self._lock = true;
+        self._lock += 1;
         for (var i = 0; i < observers.length; i++) {
             var ident = observers[i];
             if (ident.source === src && ident.signal === sig &&
@@ -831,8 +831,8 @@ MochiKit.Base.update(MochiKit.Signal, {
                 }
             }
         }
-        self._lock = false;
-        if (self._dirty) {
+        self._lock -= 1;
+        if (self._dirty && !self._lock) {
             self._dirty = false;
             for (var i = observers.length - 1; i >= 0; i--) {
                 if (!observers[i].connected) {
@@ -865,7 +865,7 @@ MochiKit.Signal.__new__ = function (win) {
     var m = MochiKit.Base;
     this._document = document;
     this._window = win;
-    this._lock = false;
+    this._lock = 0;
     this._dirty = false;
 
     try {
