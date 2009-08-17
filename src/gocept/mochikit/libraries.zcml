@@ -36,18 +36,13 @@
     require="gocept.mochikit.base">
     <directory source="resources" include="jsclass.js" />
   </resourceLibrary>
-
+  
   <resourceLibrary name="gocept.mochikit.lightbox"
     require="gocept.mochikit.base gocept.mochikit.jsclass">
     <directory source="resources" include="lightbox.js
                                            lightbox.css" />
   </resourceLibrary>
-
-  <resourceLibrary name="gocept.mochikit.xmlrpc"
-    require="gocept.mochikit.base">
-    <directory source="resources" include="xmlrpc.js" />
-  </resourceLibrary>
-
+  
   <browser:viewletManager
     name="gocept.mochikit.javascript"
     provides=".interfaces.IJavascriptViewletManager"
