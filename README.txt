@@ -61,11 +61,6 @@ need to include the following::
 Changes
 =======
 
-1.4.2.5 (unreleased)
-++++++++++++++++++++
-
-* Added a client for XML-RPC (adapted from <http://www.zentus.com/js/xmlrpc.js>)
-
 1.4.2.4 (2009-05-22)
 ++++++++++++++++++++
 
